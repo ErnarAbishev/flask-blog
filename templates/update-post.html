@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} Изменить статью {% endblock %}
+{% block content %}
+<div class="container">
+    <h1 class="mb-5">Изменить статью</h1>
+    <form method="POST">
+        <input name="title" class="form-control form-control-lg mb-3" type="text" placeholder="Заголовок" aria-label=".form-control-lg example">
+        <textarea name="intro" class="form-control form-control-lg mb-3" type="text" id="exampleFormControlTextarea1" rows="3" placeholder="Краткое описание"></textarea>
+        <textarea name="text" class="form-control form-control-lg mb-3" type="text" id="exampleFormControlTextarea2" rows="6" placeholder="Контент"></textarea>
+        <button type="submit" class="btn btn-lg btn-outline-primary">Изменить пост</button>
+    </form>
+</div>
+{% endblock %}

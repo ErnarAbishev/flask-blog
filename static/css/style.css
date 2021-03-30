@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contact {
+    padding: 90px 0;
+    background-color: gray;
+}
